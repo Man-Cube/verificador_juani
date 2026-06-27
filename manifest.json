@@ -1,0 +1,18 @@
+{
+  "name": "Verificador de Precios - Autoservicio Juani",
+  "short_name": "Verificador",
+  "description": "Terminal de consulta de precios para el local",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#00388c",
+  "theme_color": "#00388c",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

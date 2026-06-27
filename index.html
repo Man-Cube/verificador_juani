@@ -144,5 +144,15 @@
             }, ms);
         }
     </script>
+    <script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./sw.js')
+        .then(reg => console.log('🚀 Guardián de la tablet activo'))
+        .catch(err => console.error('Fallo en el guardián', err));
+    });
+  }
+    </script>
+    
 </body>
 </html>

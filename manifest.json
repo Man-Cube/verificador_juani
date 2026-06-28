@@ -3,10 +3,10 @@
   "short_name": "Verificador",
   "description": "Terminal de consulta de precios para el local",
   "start_url": "./index.html",
-  "display": "standalone",
+  "display": "fullscreen",
   "background_color": "#00388c",
   "theme_color": "#00388c",
-  "orientation": "portrait",
+  "orientation": "landscape",
   "icons": [
     {
       "src": "icon.png",

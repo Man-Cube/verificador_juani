@@ -1,4 +1,4 @@
-const CACHE_NAME = 'verificador-juani-v1';
+const CACHE_NAME = 'verificador-juani-v2';
 const ASSETS = [
   './',
   './index.html',
